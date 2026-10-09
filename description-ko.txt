@@ -1,0 +1,93 @@
+이제 좀보이드에서 간단한 야구를 즐겨보세요!
+
+친구와 함께하는 투수·타자 1대1부터, 혼자 즐기는 피칭머신 타격 연습까지.
+구종을 골라 공을 던지고, 타이밍을 맞춰 멀리 날려보세요.
+
+공을 실제로 타격하거나 직접 투구하면 소소하게 경험치도 챙겨줍니다.
+(타격 = 근력 + 긴 둔기 | 피칭 = 근력 + 체력)
+
+[h1]아이템[/h1]
+[h2]방망이 전환![/h2]
+[img]https://raw.githubusercontent.com/ppebble/playable-baseball/workshop-images/01-bat-conversion.jpg[/img]
+일반 [b]나무·금속 야구방망이[/b]를 우클릭해 [b]스포츠용으로 전환[/b]한 뒤 양손에 장착하세요.
+스포츠용 배트는 다시 무기용으로 되돌릴 수 있습니다.
+못이나 볼트로 보강한 방망이는 전환 대상에서 제외됩니다.
+
+[h2]투수 글러브[/h2]
+[img]https://raw.githubusercontent.com/ppebble/playable-baseball/workshop-images/02-baseball-glove.png[/img]
+투수 플레이를 위한 별도의 글러브 장비입니다. 착용하면 자동으로 왼손에 장착됩니다.
+
+스포츠용품점에서 찾거나 제작할 수 있습니다.
+(제작: 가죽 조각 6개, 노끈 2개)
+
+해당 글러브를 착용하고 오른손에 야구공까지 장착하면 투수 대기 상태가 됩니다!
+
+[h2]피칭머신[/h2]
+[img]https://raw.githubusercontent.com/ppebble/playable-baseball/workshop-images/03-pitching-machine.png[/img]
+혼자 남은 세상에서 타격 연습을 하기 위한 피칭머신입니다.
+
+낮은 확률로 스포츠용품점에서 찾거나 제작할 수 있습니다.
+(제작: 금속 파이프 4개, 작은 금속판 4개, 전자부품 조각 8개, 전선 2개, 나사 8개, 야구공 1개)
+
+[img]https://raw.githubusercontent.com/ppebble/playable-baseball/workshop-images/04-machine-placement.jpg[/img]
+[h3]피칭머신 설치 및 회수[/h3]
+[b]피칭머신을 인벤토리 내부에 둔 채로[/b]
+a. 땅을 우클릭한 후 Playable Baseball 컨텍스트 메뉴 → 건설 → 설치하기
+b. 인벤토리 내의 피칭머신을 우클릭한 후 설치하기
+
+그 후 [b]R 키[/b]로 8방향으로 회전하며 좌클릭으로 설치할 수 있습니다.
+설치 미리보기에서 발사 방향을 확인하세요.
+
+[b]회수[/b]: 피칭머신 컨텍스트 메뉴에서 회수할 수 있습니다.
+[img]https://raw.githubusercontent.com/ppebble/playable-baseball/workshop-images/05-machine-menu.jpg[/img]
+[h3]피칭머신 사용[/h3]
+피칭머신 근처에서 피칭머신 우클릭 → Playable Baseball 야구 메뉴 → 피칭머신에서 [b]구종 → 느림·보통·빠름 → 발사 간격[/b]을 선택하세요. 공은 자동으로 발사됩니다.
+
+[h2]설치 시 노란색 박스는 뭔가요?[/h2]
+피칭머신의 스트라이크 존입니다. 스포츠용 방망이를 양손에 들고 스트라이크 존 근처를 우클릭해 [b]타자 자세잡기[/b]로 진입할 수 있습니다.
+
+[h1]투수 플레이[/h1]
+[h2]먼저 [b]오른손에 야구공, 왼손에 야구 글러브[/b]를 장착해 투수 대기 상태로 진입합니다.[/h2]
+해당 상태에서 던질 지점을 우클릭하면 스트라이크 존이 표시되고 피칭 UI가 열립니다. 핀포인트 투구를 마치면 해당 지점을 향해 공을 던집니다.
+
+[img]https://raw.githubusercontent.com/ppebble/playable-baseball/workshop-images/06-pinpoint-pitching.gif[/img]
+[h2]핀포인트 투구[/h2]
+[list]
+[*]던질 지점을 우클릭하고 [b]직구·슬라이더·커브[/b] 중 구종을 선택합니다.
+[*]가이드 선을 따라 그린 뒤 타이밍에 맞춰 놓으면 공을 던집니다.
+[/list]
+선의 정확도는 [b]구속[/b]에, 릴리즈 타이밍은 [b]제구[/b]에 영향을 줍니다.
+화면 상단에서 구속과 스트라이크·볼 결과를 확인할 수 있습니다.
+
+[h1]타자 플레이[/h1]
+[h2]먼저, 투수(피칭머신)가 지정한 스트라이크 존 근처를 우클릭해 [b]타자 자세잡기[/b]를 선택하세요.[/h2]
+[img]https://raw.githubusercontent.com/ppebble/playable-baseball/workshop-images/07-batter-stance.jpg[/img]
+
+[h2]타이밍을 맞춰 타격하세요![/h2]
+정해진 타석으로 이동해 준비한 뒤, 공이 들어올 때 [b]좌클릭[/b]으로 스윙합니다.
+
+[img]https://raw.githubusercontent.com/ppebble/playable-baseball/workshop-images/08-home-run.gif[/img]
+[list]
+[*]마우스 커서로 타구 방향을 조절합니다.
+[*]타격 타이밍에 따라 [b]직선타구·뜬공·땅볼[/b]과 방향·비거리가 달라집니다.
+[*][b]근력과 긴 둔기 레벨[/b]이 비거리에 영향을 줍니다.
+[*]일정 능력치와 [b]야구선수 특성[/b]을 갖추면 정확한 타격에서 홈런성 타구가 나올 수 있습니다.
+[/list]
+화면 상단에 비거리·헛스윙·타격 결과가 표시됩니다.
+[b]타자 자세를 잡은 상태에서만 스윙할 수 있습니다.[/b]
+
+[h2]난 솔로인데?[/h2]
+직접 제작한 [b]3D 피칭머신[/b]을 [b]8방향[/b]으로 설치해 타격 연습을 할 수 있습니다.
+설치한 뒤 [b]구종 → 느림·보통·빠름 → 발사 간격[/b]을 선택하세요.
+머신의 스트라이크 존에서도 같은 방법으로 타자 자세를 잡고 타격할 수 있습니다.
+
+[h2]추가 장비와 멀티플레이[/h2]
+[list]
+[*]새로운 [b]야구 글러브[/b]와 [b]피칭머신[/b] 제작을 지원합니다.
+[*][b]싱글플레이와 멀티플레이[/b]에서 사용할 수 있습니다.
+[*]투구와 피칭머신 연습 중에는 [b]야구공이 소모되지 않습니다.[/b] 피칭머신 제작에는 야구공 1개가 재료로 소모됩니다.
+[/list]
+
+[b]지원 버전:[/b] Build 42.21 이상
+[b]필수 모드:[/b] 없음
+[b]모드 ID:[/b] PlayableBaseball
